@@ -1,0 +1,126 @@
+    /* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+    /* Fixed width container class that will "auto-center" itself */
+    .container {
+    width: 1200px;
+    margin: 0 auto;
+    }
+
+    /* Button-Up */
+.btn{
+    background-color: rgb(47, 102, 253);
+    padding: 7px;
+    color: white;
+    font-weight: bold;
+    box-shadow: 3px 2px black;
+}
+
+/* FLEX-ible Columns */
+.row{
+    display: flex;
+}
+
+.col, .col-2, .col-3{
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    margin: 10px;
+    padding: 10px;
+    flex: 1;
+}
+
+.col-2{
+    flex: 2;
+}
+
+.col-3{
+    flex: 3;
+}
+
+/* Flex Navbar*/
+* {
+    font-family: sans-serif;
+    color: white;
+    font-weight: 100;
+}
+
+.nav{
+    background-color: rgb(29, 28, 28);
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    margin: 20px;
+    padding: 0 20px;
+    height: 50px;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    padding: 15px;
+}
+
+.active{
+    font-weight: bold;
+}
+
+.btn{
+    font-weight: bold;
+    background-color: rgba(0, 217, 255, 0.836);
+    border: 2px solid black;
+    box-shadow: 2px 4px black;
+}
+
+/* GitHub BLocks*/
+h1{
+    font-family: sans-serif;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+p{
+    font-family: sans-serif;
+}
+
+#container{
+    background-color: lightgrey;
+    width: 800px;
+    padding: 20px;
+    text-align: center;
+    border-top: 5px solid black;
+}
+
+img.octocat{
+    height: 200px;
+}
+
+.row{
+    background-color: brown;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    padding: 20px;
+}
+
+.orange{
+    background-color: orange;
+    justify-content: space-evenly;
+}
+
+.green{
+    background-color: green;
+}

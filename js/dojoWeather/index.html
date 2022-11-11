@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DojoWeather</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <div id="container">
+            <div class="header">
+                <Div class="h1"><h1>DojoWeather</h1></Div>
+                <div class="list">
+                    <ul>
+                        <li onclick="alert('This page says\n Loading weather report...')">Burbank</li>
+                        <li>Chicago</li>
+                        <li>Dallas</li>
+                    </ul>
+            </div>
+        </div>
+            <div id="main">
+                <div class="main-top">
+                    <div><h2>San Jose</h2></div>
+                    <div class="temp">show temperature in <span class="select">
+                        <select onchange="changeTemp(this)">
+                            <option>°C</option>
+                            <option>°F</option>
+                        </select></span></div>
+                </div>
+                <div class="main-body">
+                    <div class="img-row">
+                        <h3>Today</h3>
+                        <img src="assets/some_rain.png" alt="rain" class="img">
+                        <p>some rain</p>
+                        <div class="tmp">
+                            <span class="L-tmp" id="tmp1">24°</span>
+                            <span class="r-tmp" id="tmp2">18°</span>
+                        </div>
+                    </div>
+                    <div class="img-row">
+                        <h3>Tomorrow</h3>
+                        <img src="assets/some_sun.png" alt="rain" class="img">
+                        <p>some sun</p>
+                        <div class="tmp">
+                            <span class="L-tmp" id="tmp3">27°</span>
+                            <span class="r-tmp" id="tmp4">19° </span>
+                        </div>
+                    </div>
+                    <div class="img-row">
+                        <h3>Friday</h3>
+                        <img src="assets/some_clouds.png" alt="rain" class="img">
+                        <p>some clouds</p>
+                        <div class="tmp">
+                            <span class="L-tmp" id="tmp5">21°</span>
+                            <span class="r-tmp" id="tmp6">16°</span>
+                        </div>
+                    </div>
+                    <div class="img-row">
+                        <h3>Saturday</h3>
+                        <img src="assets/some_sun.png" alt="rain" class="img">
+                        <p>some sun</p>
+                        <div class="tmp">
+                            <span class="L-tmp" id="tmp7">26°</span>
+                            <span class="r-tmp" id="tmp8">21°</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="main-bottom">
+                    <img src="assets/cookie.png" alt="cookie" class="cookie">
+                    <div>
+                        <h4>Stop! Cookie time</h4>
+                        <p class="bottom">We use cookies (sadly not the edible ones) to personalize <br>
+                            content and ads, to provide social media features and to <br> 
+                            analyse out traffic. <a href="#">Read more...</a></p>
+                    </div>
+                    <button id="accept" onclick="remove('.main-bottom')">I Accept</button>
+                </div>
+            </div>
+        </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+* {
+    font-family: sans-serif;
+    color: white;
+    font-weight: 100;
+}
+
+.nav{
+    background-color: rgb(29, 28, 28);
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    margin: 20px;
+    padding: 0 20px;
+    height: 50px;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    padding: 15px;
+}
+
+.active{
+    font-weight: bold;
+}
+
+.btn{
+    font-weight: bold;
+    background-color: rgba(0, 217, 255, 0.836);
+    border: 2px solid black;
+    box-shadow: 2px 4px black;
+}

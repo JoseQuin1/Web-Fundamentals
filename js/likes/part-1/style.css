@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#container{
+    height: 700px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main{
+    height: 100px;
+    width: 350px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    margin-left: 20%;
+    margin-top: 50px;
+}
+.row{
+    height: 50px;
+    padding: 0 20px;
+}
+
+#top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+}
+
+.btn{
+    height: 30px;
+    width: 60px;
+    border: 3px solid black;
+    box-shadow: 3px 3px black;
+    background-color: goldenrod;
+}
+
+.likes{
+    margin-left: 30px ;
+}
